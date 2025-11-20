@@ -27,3 +27,6 @@ do
         fi
     done
 done
+
+# Update systemd-boot snapshots
+systemctl restart update-systemd-boot-snapshots.service
